@@ -1,0 +1,50 @@
+<html>
+ <head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-image: url("rail.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-size:100% 100%;
+            color: black;
+            font-family: "Sofia", sans-serif;
+        }
+        .card{
+              max-width: 500px;
+              border-radius: 20px;
+              text-align:center;
+              margin-top: 50px;
+              font-family: "Sofia", sans-serif;
+              margin-right: auto;
+              margin-left: auto;
+              box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+              backdrop-filter: blur(14px);
+              background-color: rgba(255, 255, 255, 0.2);
+              padding: 10px;
+            }
+        #un {
+            outline: none;
+            border: 1px solid black;
+            border-radius:10px;
+            font-size: 1rem;
+            padding: 0.3rem 0.7rem;
+            flex: 1;
+        }
+    </style>
+ </head>
+ <body>
+       <div class="card">
+           <h1>SIGNUP</h1>
+            <form action="signup" method="post">
+                Username:<input type="text" name="un" id="un"/><br/><br/>
+                Password:<input type="password" name="pwd" id="un"/><br/><br/>
+                Email:<input type="email" name="mail" id="un" /><br/><br/>
+                <input type="submit" id="un"/><br/>
+            </form>
+        </div>
+ </body>
+</html>

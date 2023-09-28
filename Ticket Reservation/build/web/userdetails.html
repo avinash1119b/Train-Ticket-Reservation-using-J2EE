@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        body{
+            background-image: url("t.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-size:100% 100%;
+            color: black;
+            font-family: "Sofia", sans-serif;
+        }
+        .card{
+              max-width: 500px;
+              border-radius: 20px;
+              text-align:center;
+              margin-top: 50px;
+              font-family: "Sofia", sans-serif;
+              margin-right: auto;
+              margin-left: auto;
+              box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+              backdrop-filter: blur(14px);
+              background-color: rgba(255, 255, 255, 0.2);
+              padding: 10px;
+            }
+        #un {
+            outline: none;
+            border: 1px solid black;
+            border-radius:10px;
+            font-size: 1rem;
+            padding: 0.3rem 0.7rem;
+            flex: 1;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="card">
+           <h1>USER DETAILS</h1>
+            <form action="UserDetails" method="post" > 
+                Train Number:<input type="text" name="tno" id="un"/><br/><br/> 
+                <input type="submit" value="submit" id="un"/><br/><br/>
+            </form> 
+        </div>
+    </body>
+</html>
